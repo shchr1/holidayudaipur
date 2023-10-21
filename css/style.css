@@ -553,11 +553,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .hero {
   padding: 7rem 0 10rem 0;
   background: #1A374D;
-  margin-bottom: 100px; }
+ }
   .hero.hero-inner {
-    padding: 11rem 0 5rem 0;
+    padding:11rem 0 5rem 0;
     margin-bottom: auto;
     background: #1A374D; }
+    .hero-inner1{
+      padding:20rem 0 10rem 0 !important;
+    }
+    
   .hero h1 {
     color: #ffffff;
     font-size: 60px; }
@@ -1458,11 +1462,14 @@ text-align: center;
 font-size: 72px;
 }
 .font-46{font-size: 46px;}
+.carousel-control-next, .carousel-control-prev{
+  top:95px;
+}
 
 @media screen and (max-width:480px) {
   .text-set{
     position: absolute;
-  top: 175px;
+  top: 130px;
   color: #ffff;
   z-index: 999999;
   margin: auto;
@@ -1473,5 +1480,15 @@ font-size: 72px;
   }
   .font-30{font-size: 30px;}
   .h-360{height:360px;}
+  .carousel-inner img{
+    height: 275px !important;
+  }
+  .hero.hero-inner {
+    padding: 5rem 0 10rem 0;
+  }
+  .hero-inner1{
+    padding:5rem 0 10rem 0 !important;
+  }
+  .intro-wrap{top: 100px;}
   
 }
